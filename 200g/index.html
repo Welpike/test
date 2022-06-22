@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>200 G</title>
+    <link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/animations.css">
+	<style>
+		.home__data{animation: slidInFormTop 1s ease-in;}
+		.home__img{animation: slidInFormBottom 1s ease-in;}
+		@media screen and (min-width: 576px){.home__data{animation: slidInFormLeft 1s ease-in;}.home__img{animation: slidInFormRight 1s ease-in;}}
+	</style>
+</head>
+<body>
+
+    <header class="l-header" id="header">
+        <nav class="nav bd-container">
+            <a href="index.html" class="nav__logo">200 G</a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active-link">Acceuil</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">A propos</a></li>
+                    <li class="nav__item"><a href="index.html#services" class="nav__link">Services</a></li>
+                    <li class="nav__item"><a href="index.html#menu" class="nav__link">Menu</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+					<!-- Bootstrap icon -->
+					<li><svg id="theme-button" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-moon change-theme" viewBox="0 0 16 16"><path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278zM4.858 1.311A7.269 7.269 0 0 0 1.025 7.71c0 4.02 3.279 7.276 7.319 7.276a7.316 7.316 0 0 0 5.205-2.162c-.337.042-.68.063-1.029.063-4.61 0-8.343-3.714-8.343-8.29 0-1.167.242-2.278.681-3.286z"/></svg></li>
+                </ul>
+            </div>
+            <div class="nav__toggle" id="nav-toggle">
+				<!-- Bootstrap icon -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                </svg>
+            </div>
+        </nav>
+    </header>
+        
+    <main class="l-main">
+        <div class="section home" id="home">
+            <div class="home__container bd-container bd-grid">
+                <div class="home__data">
+                    <h1 class="home__title">200 G</h1>
+                    <h2 class="home__subtitle">Lorem ipsum <br>dolor sit amet...</h2>
+                    <a href="#menu" class="button">Notre menu</a>
+                </div>
+                <img src="img/home_image.jpg" alt="200 G" class="home__img">
+            </div>
+        </div>
+        <div class="section about bd-container" id="about">
+            <div class="about__container bd-grid">
+                <div class="about__data">
+                    <span class="section-subtitle about__initial">A propos</span>
+                    <h2 class="section-title about__initial">Lorem ipsum <br>dolor sit amet...</h2>
+                    <p class="about__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam ut, consectetur at deleniti voluptas placeat suscipit incidunt voluptatibus quibusdam quas corporis rerum. Nemo possimus explicabo eius, facere rem dolor velit!</p>
+                    <a href="about.html" class="button">Lire plus</a>
+                </div>
+                <img src="img/about_image.jpg" alt="Our kitchen" class="about__img">
+            </div>
+        </div>
+        <div class="section services bd-container" id="services">
+            <span class="section-subtitle">Services</span>
+            <h2 class="section-title">Nos services</h2>
+            <div class="services__container bd_grid">
+                <div class="services__content">
+					<!-- svgrepo.com icon -->
+                    <svg class="services__img" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 56.999 56.999" style="enable-background:new 0 0 56.999 56.999;" xml:space="preserve">
+						<g>
+							<path d="M56.784,40.046C56.452,39.4,55.795,39,55.069,39h-1.095c-0.464-12.195-9.362-22.26-21.017-24.52
+							C32.974,14.319,33,14.159,33,14c0-2.757-2.243-5-5-5s-5,2.243-5,5c0,0.159,0.025,0.32,0.043,0.48
+							C11.387,16.739,2.489,26.805,2.025,39H1.93c-0.726,0-1.383,0.4-1.715,1.046s-0.276,1.413,0.146,2.004l2.26,3.164
+							C3.867,46.959,5.891,48,8.034,48h40.932c2.143,0,4.167-1.041,5.413-2.786l2.261-3.164C57.061,41.459,57.116,40.691,56.784,40.046z
+							M25.006,14.172C25.002,14.114,25,14.056,25,14c0-1.654,1.346-3,3-3s3,1.346,3,3c0,0.057-0.002,0.114-0.006,0.172
+							c-0.047-0.005-0.094-0.007-0.14-0.012c-0.344-0.038-0.69-0.065-1.038-0.089c-0.128-0.009-0.255-0.022-0.383-0.029
+							C28.957,14.015,28.48,14,28,14s-0.958,0.015-1.432,0.041c-0.128,0.007-0.255,0.02-0.383,0.029
+							c-0.348,0.024-0.694,0.052-1.038,0.089C25.1,14.165,25.053,14.166,25.006,14.172z M24.406,16.269
+							c0.535-0.08,1.075-0.138,1.615-0.182c0.11-0.009,0.22-0.017,0.33-0.024c1.098-0.074,2.201-0.074,3.299,0
+							c0.11,0.008,0.22,0.016,0.33,0.024c0.54,0.044,1.079,0.102,1.615,0.182C42.806,17.96,51.503,27.437,51.979,39H4.02
+							C4.497,27.437,13.193,17.96,24.406,16.269z M52.751,44.051C51.879,45.271,50.464,46,48.965,46H8.034
+							c-1.499,0-2.914-0.729-3.786-1.948L2.068,41H54h0.931L52.751,44.051z"/>
+							<path d="M27.986,18c-1.643,0-3.278,0.181-4.86,0.537c-0.539,0.121-0.877,0.656-0.756,1.195c0.105,0.465,0.518,0.78,0.975,0.78
+								c0.073,0,0.147-0.008,0.221-0.024C25.004,20.164,26.491,20,27.986,20c0.004,0,0.008,0,0.013,0h0c0.552,0,1-0.447,1-0.999
+								C29,18.444,28.556,17.981,27.986,18z"/>
+							<path d="M17.15,20.899C11.946,23.982,8.158,29.56,7.016,35.82c-0.099,0.544,0.261,1.064,0.805,1.163
+								C7.881,36.995,7.941,37,8.001,37c0.474,0,0.895-0.338,0.983-0.82c1.039-5.698,4.473-10.768,9.186-13.56
+								c0.475-0.281,0.632-0.895,0.351-1.37C18.238,20.775,17.626,20.618,17.15,20.899z"/>
+						</g>
+						<g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g>
+					</svg>
+                    <h3 class="services__title">Exellents plats</h3>
+                    <p class="services__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur temporibus voluptatum provident doloribus beatae voluptatibus!</p>
+                </div>
+                <div class="services__content">
+					<!-- svgrepo.com icon -->
+                    <svg class="services__img" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 478.996 478.996" style="enable-background:new 0 0 478.996 478.996;" xml:space="preserve">
+						<g transform="translate(0 -540.36)">
+							<g>
+								<g>
+									<circle cx="181.758" cy="737.326" r="8.5"/>
+									<circle cx="73.758" cy="804.926" r="8.5"/>
+									<circle cx="173.458" cy="887.626" r="8.5"/>
+									<circle cx="305.158" cy="821.226" r="8.5"/>
+									<circle cx="347.458" cy="704.726" r="8.5"/>
+									<circle cx="404.158" cy="696.226" r="8.5"/>
+									<circle cx="222.958" cy="654.126" r="8.5"/>
+									<path d="M238.962,903.127c13,0,23.5-10.6,23.5-23.5c0-13-10.5-23.5-23.5-23.5s-23.5,10.5-23.5,23.5
+										S225.962,903.127,238.962,903.127z M238.962,871.127c4.7,0,8.5,3.8,8.5,8.5s-3.8,8.5-8.5,8.5c-4.7,0-8.5-3.8-8.5-8.5
+										S234.262,871.127,238.962,871.127z"/>
+									<path d="M132.462,805.927c-17.9,0-32.5,14.6-32.5,32.5s14.6,32.5,32.5,32.5c17.9,0,32.5-14.5,32.5-32.5
+										C164.962,820.527,150.362,805.927,132.462,805.927z M132.462,855.927c-9.6,0-17.5-7.9-17.5-17.5s7.9-17.5,17.5-17.5
+										c9.6,0,17.5,7.9,17.5,17.5S142.062,855.927,132.462,855.927z"/>
+									<path d="M160.762,712.627c15.7,0,28.5-12.8,28.5-28.5s-12.8-28.5-28.5-28.5c-15.7,0-28.5,12.8-28.5,28.5
+										S145.062,712.627,160.762,712.627z M160.762,670.627c7.4,0,13.5,6.1,13.5,13.5s-6.1,13.5-13.5,13.5c-7.4,0-13.5-6.1-13.5-13.5
+										S153.362,670.627,160.762,670.627z"/>
+									<path d="M122.062,745.527c0-13-10.5-23.5-23.5-23.5s-23.5,10.5-23.5,23.5s10.5,23.5,23.5,23.5S122.062,758.527,122.062,745.527z
+										M98.562,754.027c-4.7,0-8.5-3.8-8.5-8.5s3.8-8.5,8.5-8.5s8.5,3.8,8.5,8.5S103.262,754.027,98.562,754.027z"/>
+									<path d="M393.062,757.627c-1.5-1.3-3.5-1.9-5.5-1.7l-172.8,14.8l108.5-136.7c2.6-3.2,2-8-1.2-10.5
+										c-35.6-28.3-80.2-43.7-125.7-43.1c-45.4,0.5-89.7,16.7-124.8,45.8c-35,29.7-59.2,70.6-67.9,115.3c-8.8,44.9-1.6,91.8,20.1,131.9
+										c21.3,40.4,56.1,72.4,98,90.3c24.4,10.4,50.4,15.6,76.3,15.6c18.8,0,37.6-2.8,55.7-8.3c43.8-13.2,82.1-41.2,107.8-78.7
+										c25.7-37.8,37.9-83.7,34.1-129.6C395.462,760.727,394.562,758.927,393.062,757.627z M192.162,775.127c-1.8,2.2-2,5.4-0.6,8.1
+										c1.4,2.6,4.3,4.2,7.2,3.9l148.8-12.7c3.3,69.2-39.9,130.8-106.8,150.9c-69.5,19.3-141-11.1-173.9-73.9l-0.1-0.1
+										c-34-61.4-20-139.7,33.1-186.1c54-46.1,129.9-49.2,185.7-7.8L192.162,775.127z M249.362,956.627
+										c-82.2,25.2-171.5-12.8-212.3-90.4c-41.2-76-22.6-172.2,44.2-228.7c33.8-28,75.6-42.1,117.4-42.1c38.1,0,76.2,11.7,108.2,35.1
+										l-11.8,14.9c-29.2-21.8-65.3-33.2-101.9-32c-37.5,1.2-74,15.4-103,40.2c-28.4,24.8-47.7,58.9-54.3,95.9
+										c-6.7,37.2-0.3,75.8,17.9,108.7c17.6,33.5,46.3,60,81,74.6c20.4,8.6,42.4,13,64.6,13c15.3,0,30.6-2.1,45.6-6.2c0.1,0,0.1,0,0.1,0
+										c36-10.8,67.6-33.8,88.8-64.8c20.4-29.7,30.5-65.7,28.7-101.8l18.7-1.6C384.762,856.327,331.462,931.827,249.362,956.627z"/>
+									<path d="M478.962,720.027c-5.1-53.5-31.9-103.7-73.5-137.9c-1.6-1.3-3.6-1.9-5.6-1.7s-3.8,1.2-5.1,2.8l-119.3,150.4
+										c-1.9,2.4-2.1,5.6-0.7,8.2c1.3,2.4,3.9,3.9,6.6,3.9c0.2,0,0.5,0,0.7,0l190.1-17.5c2-0.2,3.8-1.1,5.1-2.7
+										C478.462,724.027,479.162,722.027,478.962,720.027z M363.962,654.027c4.7,0,8.5,3.8,8.5,8.5s-3.8,8.5-8.5,8.5s-8.5-3.8-8.5-8.5
+										S359.262,654.027,363.962,654.027z M298.262,729.227l44.6-56.4c3.8,7.8,11.8,13.2,21.1,13.2c13,0,23.5-10.5,23.5-23.5
+										c0-11.2-7.8-20.5-18.2-22.9l11.5-14.4c26.7,23.9,43.5,55.5,49,91.9L298.262,729.227z M444.662,715.727
+										c-5.9-40.6-24.7-75.7-54.6-102.3l11.6-14.7c33.4,29.8,55.4,71.1,61.4,115.3L444.662,715.727z"/>
+								</g>
+							</g>
+						</g>
+						<g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g>
+                    </svg>
+                    <h3 class="services__title">Fast food</h3>
+                    <p class="services__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur temporibus voluptatum provident doloribus beatae voluptatibus!</p>
+                </div>
+            </div>
+        </div>
+		<!-- need : photos for dishes -->
+        <div class="section menu bd-container" id="menu">
+			<span class="section-subtitle">Menu</span>
+            <h2 class="section-title">Catégories de plats</h2>
+            <div class="menu__container bd-grid">
+				<div class="menu__content">
+					<img src="img/menu_image_1.jpg" alt="Hamburger" class="menu__img">
+					<h3 class="menu__name">Hamburgers</h3>
+					<span class="menu__detail">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+					<span class="menu__price">9,99€</span>
+					<a href="menu.html#burgers" class="button menu__button">Voir plus</a>
+				</div>
+				<div class="menu__content">
+					<img src="img/menu_image_1.jpg" alt="Kebabs" class="menu__img">
+					<h3 class="menu__name">Kebabs</h3>
+					<span class="menu__detail">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+					<span class="menu__price">9,99€</span>
+					<a href="menu.html#kebabs" class="button menu__button">Voir plus</a>
+				</div>
+				<div class="menu__content">
+					<img src="img/menu_image_1.jpg" alt="Pizzas" class="menu__img">
+					<h3 class="menu__name">Pizzas</h3>
+					<span class="menu__detail">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+					<span class="menu__price">9,99€</span>
+					<a href="menu.html#pizzas" class="button menu__button">Voir plus</a>
+				</div>
+			</div>
+		</div>
+        <div class="section contact bd-container" id="contact">
+			<div class="contact__container bd-grid">
+				<div class="contact__data">
+					<span class="section-subtitle contact__initial">Réserver</span>
+            		<h2 class="section-title contact__initial">Contactez-nous</h2>
+					<p class="contact__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, neque pariatur impedit dolore rem voluptates repellendus voluptas accusamus debitis quos amet, cupiditate mollitia quasi. Itaque nam repellendus tempore consequatur. Sint.</p>
+				</div>
+				<div class="contact__button">
+					<a href="contact.html" class="button">Réserver</a>
+				</div>
+			</div>
+		</div>
+    </main>
+
+    <footer class="footer section bd-container">
+		<div class="footer__container bd-grid">
+			<div class="footer__content footer__parent">
+				<div>
+					<a href="index.html" class="footer__logo">200 G</a>
+					<span class="footer__description">Restaurant</span>
+					<div>
+						<!-- Bootstrap icons -->
+						<a href="https://facebook.com/" target="_blank" class="footer__social"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16"><path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/></svg></a>
+						<a href="https://instagram.com/" target="_blank" class="footer__social"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16"><path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/></svg></a>
+						<a href="https://twitter.com/" target="_blank" class="footer__social"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16"><path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/></svg></a>
+						<a href="https://youtube.com/" target="_blank" class="footer__social"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16"><path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"/></svg></a>
+					</div>
+				</div>
+				<div class="footer__content">
+					<h3 class="footer__title">200 G</h3>
+					<ul>
+						<li><a href="index.html" class="footer__link">Home</a></li>
+						<li><a href="menu.html" class="footer__link">Menu</a></li>
+						<li><a href="opening.html" class="footer__link">Horaires</a></li>
+						<li><a href="contact.html" class="footer__link">Contact</a></li>
+					</ul>
+				</div>
+				<div class="footer__content">
+					<h3 class="footer__title">Autres</h3>
+					<ul>
+						<li><a href="policies.html" class="footer__link">Mentions légales</a></li>
+						<li><a href="README.md" class="footer__link">README</a></li>
+						<li><a href="index.html#services" class="footer__link">Services</a></li>
+						<li><a href="golden-book.html" class="footer__link">Livre d'or</a></li>
+					</ul>
+				</div>
+				<div class="footer__content">
+					<h3 class="footer__title">Adresse</h3>
+					<ul>
+						<li>45, rue d'Angers</li>
+						<li>49460 Cantenay-Épinard</li>
+						<li>09 67 62 25 85</li>
+						<li>200g@mail.com</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<p class="footer__copyright">&copy; 200 G. All rights reserved.</p>
+	</footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
